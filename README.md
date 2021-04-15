@@ -2,7 +2,7 @@
 
 train: 
 
-  run main.py.
+  run main.py;
   
 test: 
 
@@ -10,7 +10,7 @@ test:
   
   run video_feature.py + video_feature_cal.py to extra video features ;
   
-  run retrieval.py to get mAP scores.
+  run retrieval.py to get mAP scores;
 
 pretrained model download:
 
@@ -23,4 +23,4 @@ trained model download:
   
 dataset download:
   
-  https://www.wict.pku.edu.cn/mipl/
+  https://www.wict.pku.edu.cn/mipl/ ;
