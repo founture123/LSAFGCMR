@@ -8,6 +8,7 @@ test:
   run retrieval.py.
 
 pretrained model:
+  san10_patchwise.pth
+  san10_pairwise.pth
   
-  
-trained model:
+
