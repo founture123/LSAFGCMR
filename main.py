@@ -23,7 +23,7 @@ def arg_parse():
                         help='path to latest checkpoint')
 
     parser.add_argument('--batch_size', default=3, type=int, metavar='N', help='mini-batch size')
-    parser.add_argument('--data_path', default='/home/wangchen/FGCrossNet', type=str, help='path to dataset')
+    parser.add_argument('--data_path', default='/home/FGCrossNet', type=str, help='path to dataset')
     parser.add_argument('--model_path', default='./model/san10_patch_decay_consine_dot+sum+_classification/', type=str, help='path to model')
     parser.add_argument('--crop_size', default=448, type=int, help='crop size')
     parser.add_argument('--scale_size', default=512, type=int, help='the size of the rescale image')
