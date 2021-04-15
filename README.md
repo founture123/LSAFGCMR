@@ -12,13 +12,15 @@ test:
   
   run retrieval.py to get mAP scores.
 
-pretrained model:
+pretrained model download:
+
   https://github.com/hszhao/SAN ;
   
-trained model:
+trained model download:
 
   https://pan.baidu.com/s/1GlDbEbZizk5jncEwXlbpig;
   password: fwb8;
   
 dataset download:
-
+  
+  https://www.wict.pku.edu.cn/mipl/
