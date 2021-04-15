@@ -19,7 +19,7 @@ def arg_parse():
     parser.add_argument('--gpu', default=0, type=int, help='GPU nums to use')
     parser.add_argument('--workers', default=4, type=int, metavar='N', help='number of data loading workers')
     parser.add_argument('--batch_size', default=12, type=int, metavar='N', help='mini-batch size')
-    parser.add_argument('--data_path', default='/home/wangchen/FGCrossNet', type=str, help='path to dataset')
+    parser.add_argument('--data_path', default='/home/FGCrossNet', type=str, help='path to dataset')
     parser.add_argument('--snapshot', default='./model/san10_patch_decay_consine_dot+sum+_classification/epoch_161_0.35025.pkl', type=str,
                         help='path to latest checkpoint')
     parser.add_argument('--feature', default='./feature', type=str, help='path to feature')
